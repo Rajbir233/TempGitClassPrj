@@ -16,6 +16,7 @@ function setup(){
     engine = Engine.create();
     world = engine.world;
 
+    // readding the files with comment
     
     ground = new Ground(600,height,1200,20);
     platform = new Ground(200,360,500,300);
